@@ -1,0 +1,168 @@
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+.temptitle{
+	color: #e71313
+}
+
+html{
+	font-family: 'Open Sans','Helvetica Neue', Helvetica, sans-serif;
+	margin: 0;
+	height: 100%;
+}
+
+body{
+	background: url(../imgs/main-bg-sailboat.jpg) no-repeat left top fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+header{
+	background: #455A4C;
+    margin: 0;
+    height: 3em;
+    color: white;
+
+	
+}
+
+nav{
+	webkit-font-smoothing: antialiased;
+	margin-top: 1em;
+	box-sizing: border-box;
+	clear: left;
+	color: rgb(0, 0, 0);
+	display: block;
+	height: 63px;
+	position: absolute;
+	width: 100%;
+	zoom: 1;
+}
+
+nav > .title-contain{
+	padding-left: 3%;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	background-color: rgba(0, 0, 0, 0.22);
+	
+}
+nav > .title{
+	webkit-font-smoothing: antialiased;
+	-webkit-transition-delay: 0s;
+	-webkit-transition-duration: 0.2s;
+	-webkit-transition-property: color;
+	-webkit-transition-timing-function: ease;
+	color: rgb(255, 255, 255);
+	cursor: auto;
+	display: inline-block;
+	font-size: 23px;
+	font-weight: normal;
+	height: 25px;
+	text-decoration: none solid rgb(255, 255, 255);
+	transition-delay: 0s;
+	transition-duration: 0.2s;
+	transition-property: color;
+	transition-timing-function: ease;
+	zoom: 1;
+}
+
+body > nav > div > a {
+	color: #FFF;
+	text-decoration: none;
+	font-size: 1.6em;
+}
+
+header > p{
+	margin: 0;
+	padding-left: 12%;
+	/* padding-top: 2%; */
+	font-size: 2.2em;
+}
+
+#we-are-roam{
+	
+    position: relative;
+	left: 53%;
+	top: 25%;
+	width: 40%;
+    color: white;
+
+}
+
+a{
+	-webkit-transition: border-color .4s;
+-moz-transition: border-color .4s;
+-o-transition: border-color .4s;
+transition: border-color .4s;
+}
+
+.main-content{ 
+
+   width: 100%;
+   padding-top: 13%;
+   
+}
+
+.minimal-button {
+	border: 1px solid white;
+	border-image-width: 1;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	background: transparent; 
+	color: #FFF;
+	position: relative;
+	top: 26px;
+	margin-top: 3.5em;
+	padding: 0.6em 20% 0.6em 1.7em;
+	text-decoration: none;
+	margin-bottom: 12px;
+	
+	
+	-webkit-transition: border-color .4s;
+	-moz-transition: border-color .4s;
+	-o-transition: border-color .4s;
+	transition: border-color .4s;
+/*   z-index: 30; */
+}
+
+.minimal-button:hover{
+	color: #8A5720;
+	background-color: #FFF;
+	box-shadow: 2px 3px 0px rgba(0, 0, 0, 0.4);
+}
+
+.minimal-button:focus{
+	outline: none;
+	border-color: rgb(111, 169, 255);
+	border-width: 2px;
+	-webkit-transition: border-color .8s;
+	-moz-transition: border-color .8s;
+	-o-transition: border-color .8s;
+	transition: border-color .8s;
+}
+
+@media all and (max-width: 690px){
+
+  html {
+	height: 150%;
+	width: auto;
+	overflow-x: hidden;
+  }  
+
+  #we-are-roam{  
+	  width: 100%;
+	  top: initial;  
+	  left: initial;
+	  padding-left: 1em;
+	  max-width: 95%;;
+  }
+  
+  .main-content{ 
+  	padding-top: 5em;
+  }
+  
+  
+}
